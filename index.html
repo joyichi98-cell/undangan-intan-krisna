@@ -1022,11 +1022,11 @@
           <div class="chapter">
             <i></i>
             <div>
-              <small>Maret 2023</small>
+              <small>Juni 2015</small>
               <h3>Awal Bertemu</h3>
               <p>
-                Berawal dari pertemuan sederhana di acara teman, kami saling mengenal dan mulai berbagi banyak cerita. Kebersamaan itu tumbuh menjadi
-                rasa nyaman dari hari ke hari.
+                Kami bertemu saat masih di bangku SMP. Pertemuan itu menjadi awal dari kisah yang indah, di mana dua hati mulai saling mengenal dan
+                berbagi cerita.
               </p>
             </div>
           </div>
@@ -1095,7 +1095,7 @@
           <strong>Akad Nikah · 08:00 WIB</strong>
           <a class="btn small" href="https://www.youtube.com/" target="_blank" rel="noopener" style="margin-top: 10px">Tonton di YouTube</a>
         </div>
-        <p class="hint">Tautan di atas masih contoh. Tautan siaran asli menyusul.</p>
+        <!-- <p class="hint">Tautan di atas masih contoh. Tautan siaran asli menyusul.</p> -->
       </section>
 
       <!-- Amplop digital -->
@@ -1269,11 +1269,11 @@
         var fromHash = readHash();
         if (fromHash) {
           setGuest(fromHash);
-          $("guestInput").hidden = true;
+          // $("guestInput").hidden = true;
         }
-        $("guestInput").addEventListener("input", function (e) {
-          setGuest(e.target.value.trim());
-        });
+        // $("guestInput").addEventListener("input", function (e) {
+        //   setGuest(e.target.value.trim());
+        // });
         $("rsvpName").addEventListener("input", function (e) {
           e.target.dataset.auto = "0";
         });
@@ -1281,7 +1281,7 @@
           var n = readHash();
           if (n) {
             setGuest(n);
-            $("guestInput").hidden = true;
+            // $("guestInput").hidden = true;
           }
         });
 
